@@ -7,6 +7,7 @@ $koneksi = new Database($host, $user, $pass, $db);
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +18,6 @@ $koneksi = new Database($host, $user, $pass, $db);
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
- .jumbotron-dua{
-    height: 500px;
-    border-radius: 0%;
-    margin-bottom: 0%;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
 .jumbotron-dua svg{
     display: block;
     padding: 0;
